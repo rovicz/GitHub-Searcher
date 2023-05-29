@@ -1,0 +1,62 @@
+/* .Grain-dark-green-abstract-background-design-texture-1-hex { color: #042326; }
+.Grain-dark-green-abstract-background-design-texture-2-hex { color: #0A3A40; }
+.Grain-dark-green-abstract-background-design-texture-3-hex { color: #0F5959; }
+.Grain-dark-green-abstract-background-design-texture-4-hex { color: #1D7373; }
+.Grain-dark-green-abstract-background-design-texture-5-hex { color: #107361; } */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #042326;
+}
+
+#searchForm {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+#searchButton {
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  border: 4px solid #107361;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#searchInput {
+  width: 85%;
+  border-radius: 10px;
+  border: 4px solid #107361;
+  background-color: #d3d3d3;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+  margin-left: 30px;
+}
+
+#content {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 120px;
+}
