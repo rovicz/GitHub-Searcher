@@ -1,9 +1,9 @@
-async function fetchDados(id: string) {
-  const r = await fetch(`https://api.github.com/users/${id}`);
+export async function fetchDados(id: string) {
+  const url = "https://api.github.com/users/";
+  const r = await fetch(url + id);
   const json = await r.json();
   handleDadosGit(json);
 }
-fetchDados();
 
 interface Dados {
   login: string;
@@ -41,16 +41,16 @@ export default function handleDadosGit(data: Dados) {
   if (isDados(data) && areaContent) {
     areaContent.innerHTML += `
     <div class="imgAvatar">
-    <img src="${data.avatar_url}" alt="Foto de Perfil">
+      <img src="${data.avatar_url}" alt="Foto de Perfil">
     </div>
-    <div>
-    <p>Login: ${data.login}</p>
-    <p>Nome: ${data.name}</p>
-    <p>Localidade: ${data.location}</p>
-    <p>Seguidores: ${data.followers}</p>
-    <p>Seguindo: ${data.following}</p>
-    <p>Repositórios: ${data.public_repos}</p>
-    <p>Biografia: ${data.bio}</p>
+    <div class="contentPersonal">
+      <p>Login: ${data.login}</p>
+      <p>Nome: ${data.name}</p>
+      <p>Localidade: ${data.location}</p>
+      <p>Seguidores: ${data.followers}</p>
+      <p>Seguindo: ${data.following}</p>
+      <p>Repositórios: ${data.public_repos}</p>
+      <p>Biografia: ${data.bio}</p>
     </div>
     `;
   }
