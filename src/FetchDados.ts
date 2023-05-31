@@ -42,8 +42,6 @@ export default function handleDadosGit(data: Dados) {
     areaContent.innerHTML += `
     <div class="imgAvatar">
       <img src="${data.avatar_url}" alt="Foto de Perfil">
-    </div>
-    <div class="contentPersonal">
       <p>Login: ${data.login}</p>
       <p>Nome: ${data.name}</p>
       <p>Localidade: ${data.location}</p>
