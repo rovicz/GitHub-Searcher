@@ -50,13 +50,13 @@ img {
 p {
   color: white;
   font-size: 1rem;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 #content {
   max-width: 960px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 120px;
 }
