@@ -48,11 +48,6 @@ img {
   height: 360px;
 }
 
-p {
-  color: white;
-  font-size: 1rem;
-}
-
 #content {
   max-width: 960px;
   display: flex;
@@ -73,6 +68,8 @@ p {
 
 .imgAvatar p {
   animation: textDown 1s;
+  color: white;
+  font-size: 1rem;
 }
 
 @keyframes textDown {
