@@ -73,6 +73,13 @@ img {
   font-size: 1rem;
 }
 
+span {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 1.25em;
+}
+
 @keyframes textDown {
   from {
     opacity: 0;
