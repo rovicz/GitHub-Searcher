@@ -47,7 +47,7 @@ export default function handleDadosGit(data: Dados) {
 
   if (isDados(data) && areaContent) {
     areaContent.innerHTML += `
-    <div class="imgAvatar">
+    <div class="content-item">
       <img src="${data.avatar_url}" alt="Foto de Perfil">
       <p>Login: ${data.login}</p>
       <p>Nome: ${data.name}</p>

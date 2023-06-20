@@ -54,6 +54,14 @@ img {
   justify-content: center;
   margin: 0 auto;
   margin-top: 40px;
+  background-color: #0a3a40;
+  border-radius: 15px;
+}
+
+@media (max-width: 739px) {
+  #content {
+    max-width: 400px;
+  }
 }
 
 #content p {
@@ -63,11 +71,12 @@ img {
   text-align: center;
 }
 
-.imgAvatar img {
+.content-item img {
   animation: textDown 1.5s;
+  margin-top: 20px;
 }
 
-.imgAvatar p {
+.content-item p {
   animation: textDown 1s;
   color: white;
   font-size: 1rem;

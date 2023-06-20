@@ -32,7 +32,7 @@ export default function handleDadosGit(data) {
     const areaContent = document.getElementById("content");
     if (isDados(data) && areaContent) {
         areaContent.innerHTML += `
-    <div class="imgAvatar">
+    <div class="content-item">
       <img src="${data.avatar_url}" alt="Foto de Perfil">
       <p>Login: ${data.login}</p>
       <p>Nome: ${data.name}</p>
