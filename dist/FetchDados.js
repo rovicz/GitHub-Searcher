@@ -33,7 +33,7 @@ export default function handleDadosGit(data) {
       <p>Seguidores: ${data.followers}</p>
       <p>Seguindo: ${data.following}</p>
       <p>Repositórios: ${data.public_repos}</p>
-      <p>Biografia: ${data.bio}</p>
+      <p>Biografia: <br> ${data.bio}</p>
     </div>
     `;
     }
